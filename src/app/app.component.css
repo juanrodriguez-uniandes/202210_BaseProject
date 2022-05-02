@@ -1,3 +1,16 @@
-* [lang^=en] {
-  color: green;
+app-root {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+img {
+  width:80%;
+}
+
+h2{
+  padding-left: 50px;
+}
+
+.border-bottom{
+  padding-bottom: 50px;
 }

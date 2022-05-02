@@ -1,0 +1,22 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Línea</th>
+      <th scope="col">Modelo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let vehicle of vehicles">
+      <th scope="row">{{ vehicle.id }}</th>
+      <td>{{ vehicle.marca }}</td>
+      <td>{{ vehicle.linea }}</td>
+      <td>{{ vehicle.modelo }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5>Total Renault: {{ count("Renault") }}</h5>
+<h5>Total Chevrolet: {{ count("Chevrolet") }}</h5>
+<h5>Total Nissan: {{ count("Nissan") }}</h5>
